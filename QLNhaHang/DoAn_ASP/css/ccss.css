@@ -1,0 +1,106 @@
+﻿body {
+}
+
+.list-group-item .list-group-item-action {
+    color: white;
+    background-color: black;
+    border: 1px solid #FEC40B;
+}
+.data-items {
+    width: 100%;
+    padding: 25px 0px;
+    background-color: #FEC40B;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 0px 10px 10px;
+}
+
+.data-items .item {
+    min-width: 25%;
+    margin: 10px 15px;
+    text-align: center;
+}
+
+.data-items .item .i {
+    border: 1px solid black;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.data-items .item .i img {
+    height: 200px;
+    width: 150px;
+    transform: rotate(1);
+    transition-duration: .4s;
+}
+
+.data-items .item:hover .i img {
+    transform: scale(1.1);
+}
+
+.data-items .item .t {
+    border: 1px solid black;
+    background-color: aliceblue;
+    padding: 10px;
+    height:100px;
+}
+.tenma {
+    font-size:18px;
+    font-weight:bold;
+    color:orangered;
+}
+.giama {
+    font-size: 13px;
+}
+#ct{
+    font-weight:bold;
+    margin-top:10px;
+    background-color:yellow;
+}
+/*.hinh{
+    width:300px;
+    height:300px;
+    background-color:black
+}
+*/
+.parent{
+    display:flex;
+}
+.bancha{
+    background-color:#FEC40B;
+    margin:0 auto;
+    min-height: 100px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    padding:20px
+}
+.bancon{
+    width: 300px;
+    height: 150px;
+    background-color:red;
+    margin:20px;
+    text-align:center;
+    line-height:150px;
+    font-weight:bold;
+}
+.bancon a {
+    color: white;
+    font-size: 20px;
+}
+.bancon:hover {
+    background-color: antiquewhite;
+    transition: all 0.5s;
+}
+.bancon:hover a{
+    color:red;
+}
+
+.col-4{
+    padding:20px
+}
+.itemMA img{
+    width:100%;
+    height:250px;
+}

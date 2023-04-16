@@ -1,0 +1,111 @@
+﻿body {
+}
+
+/*.boxban {
+    margin-top: 50px;
+    width: 80%;
+    min-height: 100px;
+    background-color: cyan;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}*/
+
+.nhanvien {
+    width: 80%;
+    margin: 0 auto;
+    height: 700px;
+    position: relative;
+    
+}
+
+.menu {
+    width: 25%;
+    color: #3a3838;
+    border: 1px solid #9e9b9b;
+    border-bottom: none;
+    min-height: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px
+}
+
+.content {
+    width: 73%;
+    min-height: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px
+}
+
+#tieude {
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    line-height: 20px;
+    padding-top: 8px;
+    border-bottom: 1px solid #9e9b9b;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-light {
+    color: black;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+    background-color: aliceblue;
+    border-bottom: 1px solid #9e9b9b;
+}
+
+
+.btn-light:hover {
+    background-color: #9e9b9b;
+}
+
+
+.data_items {
+    width: 100%;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.data_items .item {
+    float:left;
+    width: 24%;
+    margin: 5px;
+    text-align: center;
+}
+
+.data_items .item .i {
+    border: 1px solid black;
+    height: 200px;
+    padding: 10px;
+}
+
+.data_items .item .i img {
+    width: 150px;
+    height: 150px;
+    transform: rotate(1);
+    transition-duration: 0.3s;
+}
+
+.data_items .item:hover .i img {
+    transform: scale(1.1);
+}
+
+
+.data_items .item .t {
+    border: 1px solid black;
+    border-top: none;
+    padding: 5px
+}
+
+.data_items .item .t .vn {
+    color: red;
+}
+
