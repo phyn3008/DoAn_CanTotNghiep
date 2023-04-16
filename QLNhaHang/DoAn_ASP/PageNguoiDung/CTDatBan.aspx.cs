@@ -19,6 +19,7 @@ namespace DoAn_ASP.PageNguoiDung
             string Duong_dan_JSON = HttpContext.Current.Server.MapPath("~/PageNguoiDung/thongtintam");
             string Chuoi_json = File.ReadAllText(Duong_dan_JSON);
             dynamic mang = JsonConvert.DeserializeObject(Chuoi_json);
+            lblSoBan.Text = mang.SoBan;
             lblTenkh.Text = mang.HoTenKH;
             lblSDT.Text = mang.SDT;
             Boolean a = mang.GioiTinh;
@@ -116,6 +117,9 @@ namespace DoAn_ASP.PageNguoiDung
             lbtb.Text = MaKH;
             rdLayMaKH.Close();
 
+            
+
+
             //Đặt Bàn
             SqlCommand cmdDatBan = new SqlCommand("insert into DatBan(MaKH,NgayDat,NgayHetHan,GhiChu) values (@MaKH,@NgayDat,@NgayHetHan,@GhiChu)", cnn);
             cmdDatBan.Parameters.AddWithValue("@MaKH", MaKH);
@@ -155,6 +159,14 @@ namespace DoAn_ASP.PageNguoiDung
                 cmdHoaDon.Parameters.AddWithValue("@MaNV", 1);
                 cmdHoaDon.Parameters.AddWithValue("@TongHD", lbltongthanhtien.Text);
                 cmdHoaDon.ExecuteNonQuery();
+
+
+                // Update Ban
+                SqlCommand cmdBan = new SqlCommand("update Ban set TinhTrang = @TinhTrang, MaDat = @MaDat where MaBan = @MaBan", cnn);
+                cmdBan.Parameters.AddWithValue("@TinhTrang", 1);
+                cmdBan.Parameters.AddWithValue("@MaDat", MaDat);
+                cmdBan.Parameters.AddWithValue("@MaBan", lblSoBan.Text);
+                cmdBan.ExecuteNonQuery();
 
                 SqlCommand cmdLayMaHD = new SqlCommand("select MaHD from HoaDon where MaDat='" + MaDat + "'", cnn);
                 string MaHD = "";

@@ -40,7 +40,8 @@
 
 
                         <%--<a class="btn btn-info" href='<%# Eval("MaBan","CTDatBan.aspx?MaBan={0}")%>'>ĐẶT BÀN</a>--%>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="<%# (Boolean)Eval("TinhTrang")==true ? "#modal-banhet" : "#exampleModal"%>" data-whatever="@mdo">
+                        <button id="order-table-btn" type="button" class="btn btn-primary" data-toggle="modal" data-target="<%# (Boolean)Eval("TinhTrang")==true ? "#modal-banhet" : "#exampleModal"%>" 
+                            data-whatever="<%# Eval("MaBan","{0}")%>">
                             Đặt Bàn<br />
                         </button>
                     </div>
@@ -79,7 +80,12 @@
                 </div>
                 <div class="modal-body">
                     <form id="form1" runat="server">
+                        <div class="form-group">
+                            <label class="col-form-label">Số Bàn</label>
+                            <asp:TextBox ID="txtSoBan" class="form-controls" runat="server" CssClass="form-control" ></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Vui Lòng Không Để Trống Tên Khách Hàng" ControlToValidate="txtTenKH" Text="(*)"></asp:RequiredFieldValidator>
 
+                        </div>
                         <div class="form-group">
                             <label class="col-form-label">Họ Và Tên</label>
                             <asp:TextBox ID="txtTenKH" class="form-controls" runat="server" CssClass="form-control"></asp:TextBox>

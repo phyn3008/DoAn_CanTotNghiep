@@ -32,14 +32,8 @@
                              <div class="form-group">
                             <label class="control-label col-sm-4"">
                                 Bàn Số:</label>
-                            <div class="col-sm-8">
-                                <asp:Repeater ID="rpBan" DataSourceID="dsCTDatBan" runat="server">
-                                    <ItemTemplate>
-                                        <asp:Label ID="lblMaBan" runat="server" Text='<%# Eval("MaBan")%>'></asp:Label>
-                                    </ItemTemplate>
-                                </asp:Repeater> 
+                                   <asp:Label ID="lblSoBan" runat="server"></asp:Label>
                             </div>
-                        </div>
                             <div class="form-group">
                                 <label class="control-label col-sm-4">
                                     Tên Khách Hàng:</label>

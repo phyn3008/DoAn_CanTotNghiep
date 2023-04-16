@@ -13,13 +13,12 @@ namespace DoAn_ASP.PageNguoiDung
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
         protected void btnDatBan_Click(object sender, EventArgs e)
         {
             DatBanCT datban = null;
             datban = new DatBanCT();
-            //datban.soban = Request.QueryString["MaBan"];
+            datban.SoBan = txtSoBan.Text;
             datban.HoTenKH = txtTenKH.Text;
             datban.SDT = txtSDT.Text;
             datban.GioiTinh = rdNam.Checked ? true : false;

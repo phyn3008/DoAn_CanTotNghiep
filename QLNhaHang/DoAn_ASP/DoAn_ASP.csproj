@@ -73,13 +73,13 @@
   <ItemGroup>
     <Content Include="CSS\css.css" />
     <Content Include="Global.asax" />
+    <Content Include="js\script.js" />
     <Content Include="PageNguoiDung\CTDatBan.aspx" />
     <Content Include="PageNguoiDung\DangNhap.aspx" />
     <Content Include="PageNguoiDung\DatBan.aspx" />
     <Content Include="PageNguoiDung\DatMonChoBan.aspx" />
     <Content Include="PageNguoiDung\DatMonMangVe.aspx" />
     <Content Include="PageNguoiDung\GioHang.aspx" />
-    <Content Include="PageNguoiDung\ThongTinKhachHang.aspx" />
     <Content Include="PageNguoiDung\TrangChu.aspx" />
     <Content Include="PageNguoiDung\XemChiTiet.aspx" />
     <Content Include="PageNguoiDung\XemMonAn.aspx" />
@@ -159,13 +159,6 @@
     </Compile>
     <Compile Include="PageNguoiDung\PageNguoiDung.Master.designer.cs">
       <DependentUpon>PageNguoiDung.Master</DependentUpon>
-    </Compile>
-    <Compile Include="PageNguoiDung\ThongTinKhachHang.aspx.cs">
-      <DependentUpon>ThongTinKhachHang.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PageNguoiDung\ThongTinKhachHang.aspx.designer.cs">
-      <DependentUpon>ThongTinKhachHang.aspx</DependentUpon>
     </Compile>
     <Compile Include="PageNguoiDung\TrangChu.aspx.cs">
       <DependentUpon>TrangChu.aspx</DependentUpon>
