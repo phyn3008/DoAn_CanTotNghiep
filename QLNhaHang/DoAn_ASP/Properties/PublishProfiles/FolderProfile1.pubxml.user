@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Truong_CDGTVT\NAM2_HK2\ASP.NET\Du_An_ASP_QL_NhaHang\HOST</_PublishTargetUrl>
+    <History>True|2023-04-16T14:49:30.2154355Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/DoAn_ASP.dll">
+      <publishTime>04/16/2023 21:49:29</publishTime>
+    </File>
+    <File Include="bin/DoAn_ASP.pdb">
+      <publishTime>04/16/2023 21:49:29</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>01/28/2016 14:22:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>04/15/2023 22:44:21</publishTime>
+    </File>
+    <File Include="CSS/css.css">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="js/script.js">
+      <publishTime>04/16/2023 20:32:55</publishTime>
+    </File>
+    <File Include="PageNguoiDung/CTDatBan.aspx">
+      <publishTime>04/16/2023 19:51:37</publishTime>
+    </File>
+    <File Include="PageNguoiDung/DangNhap.aspx">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="PageNguoiDung/DatBan.aspx">
+      <publishTime>04/16/2023 20:37:28</publishTime>
+    </File>
+    <File Include="PageNguoiDung/DatMonChoBan.aspx">
+      <publishTime>04/16/2023 05:48:26</publishTime>
+    </File>
+    <File Include="PageNguoiDung/DatMonMangVe.aspx">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="PageNguoiDung/GioHang.aspx">
+      <publishTime>04/16/2023 12:03:57</publishTime>
+    </File>
+    <File Include="PageNguoiDung/PageNguoiDung.Master">
+      <publishTime>04/16/2023 19:36:20</publishTime>
+    </File>
+    <File Include="PageNguoiDung/thongtintam.json">
+      <publishTime>04/16/2023 05:53:57</publishTime>
+    </File>
+    <File Include="PageNguoiDung/TrangChu.aspx">
+      <publishTime>04/15/2023 22:55:02</publishTime>
+    </File>
+    <File Include="PageNguoiDung/XemChiTiet.aspx">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="PageNguoiDung/XemMonAn.aspx">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="PageQTV/ChiTietNhanVien.aspx">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="PageQTV/CTDB.aspx">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="PageQTV/HoaDon.aspx">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="PageQTV/OrderTaiQuan.aspx">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="PageQTV/PageQTV.Master">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="PageQTV/QLNhanVien.Master">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="PageQTV/QuanLyLuong.aspx">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="PageQTV/ThayDoi.aspx">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="PageQTV/ThemMonChoBan.aspx">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="PageQTV/ThemNV.aspx">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="PageQTV/ThucDon.aspx">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="PageQTV/TinhTien.aspx">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="PageQTV/TinhTrang.aspx">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="PageQTV/XemNhanVien.aspx">
+      <publishTime>04/15/2023 22:44:20</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/16/2023 21:49:29</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
